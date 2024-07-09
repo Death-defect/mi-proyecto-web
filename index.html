@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-wzL9POB4Hf+Bf0qEcyBkOo2Ux8eTKfsQWSsS1yLk1vLSyFv4zAeSjIJY54SaGK+VHeC8F7x8yf1zZpR8dL4SGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Aves en Foco</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .btn {
+        font-size: 0.85rem;
+      }
+
+      .p {
+        font-size: 0.85rem;
+      }
+    </style>
+  </head>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="Img/logo_png.png" alt="Logo Aves en Foco" width="110" height="110"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#explora">Explorar</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#ebird" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              eBird
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Observaciones Recientes</a></li>
+              <li><a class="dropdown-item" href="#">Explorar por Región</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Buscar por Especie</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid mt-3 position-relative" id="inicio">
+    <a href="#inicio">
+      <img
+      src="Img/imagen_3.jpg"
+      alt="#"
+      class="rounded-2 opacity-75 shadow-lg"
+      style="object-fit: cover; object-position: center"
+      height="400"
+      width="100%"
+    />
+    </a>
+  </div>
+
+  <div class="container my-5">
+    <h1 class="text-center text-uppercase fw-bold text text-primary" >Aves en Foco</h1>
+    <h2 class="text-center">Explora la diversidad de aves en tu región</h2>
+
+    
+    <div class="row mt-5 d-flex gap-2">
+      <div
+        class="col-lg-6 col-sm-12 shadow-lg text-md-end text-center py-3 px-5 rounded-start-4">
+      
+        <div class="h3 fw-semibold fs-1"><Meta:edge></Meta:edge>Misión</div>
+        <div class="p lh-sm fw-light">
+          Facilitar encuentros memorables con la avifauna, guiados por expertos, para fomentar la apreciación de la naturaleza y contribuir a la protección de las especies mediante el ecoturismo responsable.
+        </div>
+      </div>
+
+      <div
+        class="col text-md-start shadow-lg text-center py-3 px-5 rounded-end-4">
+        <div class="h3 fw-semibold fs-1">Visión</div>
+        <div class="p lh-sm fw-light">
+          Ser líderes en la observación de aves, ofreciendo experiencias únicas y educativas que promuevan la conservación de las aves y sus hábitats.
+        </div>
+      </div>
+
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Img/imagen_1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/imagen_2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/imagen_4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/imagen_5.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 mb-4 text-white">
+        <div class="p-4 rounded" style="background-color: #0eb2d3;" >
+          <p>
+            Las aves desempeñan roles cruciales en los ecosistemas globales. Los colibríes, con sus vuelos rápidos y coloridos plumajes, son vitales para la polinización de plantas florecientes, asegurando la reproducción de numerosas especies. Las águilas, como depredadores tope, mantienen el equilibrio al regular las poblaciones de presas, contribuyendo a la salud de los hábitats donde habitan. Los pingüinos, adaptados tanto al agua como a la tierra, son indicadores clave de la salud de los ecosistemas marinos, reflejando cambios ambientales importantes.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4 text-white">
+        <div class="p-4 rounded" style="background-color: #0eb2d3;" >
+          <p>
+            En entornos más humanizados, las gaviotas se adaptan bien y desempeñan un papel crucial en la gestión de desechos, ayudando a mantener limpias las áreas costeras y urbanas. Los flamencos, con su distintiva coloración y hábitos alimenticios en lagunas salinas, son indicadores de la calidad del agua y la disponibilidad de alimentos en estos hábitats únicos. En resumen, las aves no solo añaden belleza y diversidad a nuestros paisajes, sino que también son indicadores sensibles de la salud ambiental y cumplen roles ecológicos fundamentales en los ecosistemas donde viven.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mt-4 mb-4">
+    <div class="row justify-content-center">
+      <div class="col-6 text-center">
+        <button class="btn btn-outline-dark btn-sm rounded-pill" style="color: #000; border-color: #000; background-color: #fff;"
+        onmouseover="this.style.backgroundColor='#0eb2d3'; this.style.color='#fff'; this.style.borderColor='#0eb2d3';"
+        onmouseout="this.style.backgroundColor='#fff'; this.style.color='#000'; this.style.borderColor='#000';">Más información</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mb-5">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="Img/imagen_1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chucao</h5>
+            <p class="card-text">Ave pequeña y rechoncha de bosques templados del sur de Chile y Argentina, con plumaje pardo oscuro y canto distintivo.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="Img/imagen_2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Martín Pescador</h5>
+            <p class="card-text">Ave con plumaje azul y blanco, con una banda parda en el pecho, que vive cerca de agua y se alimenta de peces.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="Img/imagen_4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pájaro Sol Verdeo</h5>
+            <p class="card-text">Colibrí endémico de Chile, con plumaje verde iridiscente y pico largo y curvo, que habita en el norte del país.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="Img/imagen_5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mosquitero Musical</h5>
+            <p class="card-text">Pequeña ave migratoria con plumaje verdoso que visita Europa y Asia en verano, conocida por su canto melodioso.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+      
+      <footer class="bg-light py-4">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <a href="https://www.instagram.com/tuusuario" target="_blank" class="text-decoration-none">
+                <img src="Img/instagram_2111463.png" alt="Instagram" width="30" height="30" class="me-2">
+                <span class="align-middle">Instagram</span>
+              </a>
+              <a href="https://twitter.com/tuusuario" target="_blank" class="text-decoration-none">
+                <img src="Img/twitter_3670151.png" alt="Twitter" width="30" height="30" class="ms-4 me-2">
+                <span class="align-middle">Twitter</span>
+              </a>
+            </div>
+            <div class="row mt-3">
+              <div class="col">
+                <p class="text-muted">© 2024 Aves en Foco. Todos los derechos reservados.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
